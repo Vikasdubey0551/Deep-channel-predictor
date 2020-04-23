@@ -5,6 +5,9 @@ Many diseases, including cancer, are believed to have a contributing factor in c
 
 When ion channels open, they pass electric currents. Existing methods of detecting these state changes are slow and laborious. Humans must supervise the analysis, which imparts considerable bias, in addition to being tedious. These difficulties limit the volume of ion channel current analysis that can be used in research. Scientists hope that technology could enable rapid automatic detection of ion channel current events in raw data.
 
+**raw_data** is obtained from here : https://www.kaggle.com/c/liverpool-ion-switching/data
+
+**data-without-drift** is obtained from here : https://www.kaggle.com/cdeotte/one-feature-model-0-930/data
 
 This repository is based on kaggle competition called 'liverpool-ion-switching' (https://www.kaggle.com/c/liverpool-ion-switching).
 
