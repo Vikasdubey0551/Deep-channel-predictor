@@ -24,4 +24,4 @@ Model specifications are :
 |F1 Score  |    0.939|
 |Precision Score | 0.939|
 |Recall Score | 0.939|
-| Submission Score | 0.934|
+| **Submission Score | 0.934**|
