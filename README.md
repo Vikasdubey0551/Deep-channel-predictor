@@ -32,3 +32,4 @@ Model specifications are :
 |Recall Score | 0.939|
 | Submission Score | 0.934|
 
+![image info](./pictures/confusion_matrix.png)
