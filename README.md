@@ -5,15 +5,18 @@ Many diseases, including cancer, are believed to have a contributing factor in c
 
 When ion channels open, they pass electric currents. Existing methods of detecting these state changes are slow and laborious. Humans must supervise the analysis, which imparts considerable bias, in addition to being tedious. These difficulties limit the volume of ion channel current analysis that can be used in research. Scientists hope that technology could enable rapid automatic detection of ion channel current events in raw data.
 
+In technical terms, this is a classification problem. The features **(X)** is the `signal values` and the target vector **(y)** is `open_channels`. The distribution of target vector `open_channels` is imbalanced. 
+
 **raw_data** is obtained from here : https://www.kaggle.com/c/liverpool-ion-switching/data
 
 **data-without-drift** is obtained from here : https://www.kaggle.com/cdeotte/one-feature-model-0-930/data
 
 This repository is based on kaggle competition called 'liverpool-ion-switching' (https://www.kaggle.com/c/liverpool-ion-switching).
 
-Jupyter notebook 'Remove_Drift+Class_Reweighing+Bi-LSTM.ipynb' contains some initial analysis and a Bi-LSTM model.
+Jupyter notebook `Remove_Drift+Class_Reweighing+Bi-LSTM.ipynb` contains some initial analysis and a Bi-LSTM model.
+Jupyter notebook `Remove_Drift_Tomek_Links_BILSTM.ipynb` contains the finalized model. The final model used **Drift-removal + Undersampling + Bidirectional LSTM** approch, which resulted in the **93.95** F1-Macro score. The performance on individual classes can be seen in the confusion matrix.
 
- ![Distribution](./pictures/distribution.png)
+![Distribution](./pictures/distribution.png)
 
 ![Confusion matrix](./pictures/confusion_matrix.png)
 
@@ -26,6 +29,7 @@ Model specifications are :
 | Bidirectional | 3 layers  |
 | Optimizer     | adam    |
 | Class reweighing | yes (μ=0.15)    |
+| Undersampling | yes (TomekLinks |
 | Sequence Length | 1000 |
 | Nodes | 256|
 |Batch size | 128 |
@@ -34,6 +38,7 @@ Model specifications are :
 |F1 Score  |    0.939|
 |Precision Score | 0.939|
 |Recall Score | 0.939|
-| Submission Score | 0.934|
+| Initial Submission Score | 0.934|
+| Final Submission Score | 0.939|
 
 
