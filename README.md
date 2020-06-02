@@ -13,7 +13,9 @@ This repository is based on kaggle competition called 'liverpool-ion-switching' 
 
 Jupyter notebook 'Remove_Drift+Class_Reweighing+Bi-LSTM.ipynb' contains some initial analysis and a Bi-LSTM model.
 
-![image info](./pictures/confusion_matrix.png) ![image info](./pictures/distribution.png)
+ ![Distribution](./pictures/distribution.png)
+
+![Confusion matrix](./pictures/confusion_matrix.png)
 
 Model specifications are : 
 
