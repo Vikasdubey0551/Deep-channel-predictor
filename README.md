@@ -29,7 +29,7 @@ Model specifications are :
 | Bidirectional | 3 layers  |
 | Optimizer     | adam    |
 | Class reweighing | yes (μ=0.15)    |
-| Undersampling | yes (TomekLinks |
+| Undersampling | yes (TomekLinks) |
 | Sequence Length | 1000 |
 | Nodes | 256|
 |Batch size | 128 |
