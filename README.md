@@ -33,12 +33,11 @@ Model specifications are :
 | Sequence Length | 1000 |
 | Nodes | 256|
 |Batch size | 128 |
-| Learning Rate | 0.001 |
+|Learning Rate | 0.001 |
 |Accuracy Score | 0.969 |
-|F1 Score  |    0.939|
 |Precision Score | 0.939|
 |Recall Score | 0.939|
-| Initial Submission Score | 0.934|
-| Final Submission Score | 0.939|
+|Initial Submission Score (F1-macro) | 0.934|
+| **Final Submission Score (F1-macro)** | **0.939**|
 
 
