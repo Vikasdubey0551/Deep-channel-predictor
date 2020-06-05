@@ -15,9 +15,7 @@ This repository is based on kaggle competition called 'liverpool-ion-switching' 
 
 Jupyter notebook `Remove_Drift_Tomek_Links_BILSTM.ipynb` contains the finalized model. The final model used **Drift-removal + Undersampling + Bidirectional LSTM** approch, which resulted in the **93.95** F1-Macro score. The performance on individual classes can be seen in the confusion matrix.
 
-![Distribution](./pictures/distribution.png)
-
-![Confusion matrix](./pictures/confusion_matrix.png)
+![title image](./pictures/title.png)
 
 Model specifications are : 
 
