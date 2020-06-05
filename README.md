@@ -13,7 +13,6 @@ In technical terms, this is a classification problem. The features **(X)** is th
 
 This repository is based on kaggle competition called 'liverpool-ion-switching' (https://www.kaggle.com/c/liverpool-ion-switching).
 
-Jupyter notebook `Remove_Drift+Class_Reweighing+Bi-LSTM.ipynb` contains some initial analysis and a Bi-LSTM model.
 Jupyter notebook `Remove_Drift_Tomek_Links_BILSTM.ipynb` contains the finalized model. The final model used **Drift-removal + Undersampling + Bidirectional LSTM** approch, which resulted in the **93.95** F1-Macro score. The performance on individual classes can be seen in the confusion matrix.
 
 ![Distribution](./pictures/distribution.png)
@@ -37,7 +36,6 @@ Model specifications are :
 |Accuracy Score | 0.969 |
 |Precision Score | 0.939|
 |Recall Score | 0.939|
-|Initial Submission Score (F1-macro) | 0.934|
 | **Final Submission Score (F1-macro)** | **0.939**|
 
 
