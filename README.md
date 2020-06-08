@@ -17,7 +17,7 @@ Jupyter notebook `Remove_Drift_Tomek_Links_BILSTM.ipynb` contains the finalized 
 
 ![title image](./pictures/title.png)
 
-Model specifications are : 
+Model specifications are given below (after hyperparameter tuning) : 
 
 |     Method    |   Numbers
 | ------------- | ------------- |
